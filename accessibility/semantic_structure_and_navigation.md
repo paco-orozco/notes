@@ -98,7 +98,7 @@ Links and buttons SHOULD be designated semantically according to their functions
   - The name/caption of a data table SHOULD describe the identity or purpose of the table accurately, meaningfully, and succinctly.
   - The name/caption of each data table SHOULD be unique within the context of other tables on the same page.
 - Table Headers
-  - Table headers MUST be designated with <th>.
+  - Table headers MUST be designated with `<th>`.
   - Data table header text MUST accurately describe the category of the corresponding data cells.
 - Simple Header Associations
   - Table data cells MUST be associated with their corresponding header cells.
