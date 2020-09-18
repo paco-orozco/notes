@@ -24,7 +24,7 @@ The `<title>` of the page is critical, because it is the first thing a screen re
 
 HTML has historically lacked some key semantic markers, such as the ability to designate sections of the page as the header, navigation, main content, and footer. With HTML 5, these designations are possible, using the new elements `<header>`, `<nav>`, `<main>`, and `<footer>`. Similar functionality is available using the ARIA (Accessible Rich Internet Application) attributes role="banner", role="navigation", role="main" and role="contentinfo".
 
-- Landmarks SHOULD be used to designate pre-defined parts of the layout (<header>, <nav>, <main>, <footer>, etc.).
+- Landmarks SHOULD be used to designate pre-defined parts of the layout (`<header>`, `<nav>`, `<main>`, `<footer>`, etc.).
 - All text SHOULD be contained within a landmark region.
 - Multiple instances of the same type of landmark SHOULD be distinguishable by different discernible labels (aria-label or aria-labelledby). (ex w/multiple nav elements) `<nav aria-label="Main Menu">...</nav>` and `<nav aria-label="Product list">...</nav>`
 - A page SHOULD NOT contain more than one instance of each of the following landmarks: banner, main, and contentinfo.
@@ -92,7 +92,7 @@ Links and buttons SHOULD be designated semantically according to their functions
 ### Tables
 
 - Semantic Markup for Tabular Data
-  - Tabular data SHOULD be represented in a <table>.
+  - Tabular data SHOULD be represented in a `<table>`.
 - Table caption/name
   - Data tables SHOULD have a programmatically-associated caption or name.
   - The name/caption of a data table SHOULD describe the identity or purpose of the table accurately, meaningfully, and succinctly.
@@ -105,7 +105,7 @@ Links and buttons SHOULD be designated semantically according to their functions
 - Grouped Header Associations
   - Table data group headers MUST be associated with their corresponding data cell groups.
 - Complex Header Associations
-  - Header/data associations that cannot be designated with <th> and scope MUST be designated with headers plus id.
+  - Header/data associations that cannot be designated with `<th>` and scope MUST be designated with headers plus id.
 - Nested or Split Tables
   - Data table headers and data associations MUST NOT be referenced across nested, merged, or separate tables.
 - Table Summary
@@ -127,7 +127,7 @@ Links and buttons SHOULD be designated semantically according to their functions
   - The iframe title MUST be accurate and descriptive.
   - Frames MUST have a unique title (in the context of the page).
 - Page Title Within an Iframe
-  - The source page of an iframe MUST have a valid, meaningful <title>.
+  - The source page of an iframe MUST have a valid, meaningful `<title>`.
 - Semantic structure across iframes
   - The heading hierarchy of an iframe SHOULD be designed to fit within the heading hierarchy of the parent document, if possible.
 - Hiding iframes that don't contain meaningful content
